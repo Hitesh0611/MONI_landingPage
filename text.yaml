@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: "";
+    font-weight: 300;
+    font-style: normal;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #1798b5, #fbfafa);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+    color: rgb(9, 9, 9);
+}
+
+@font-face {
+    font-family: 'Mustardo';
+    src: url('mustardo.ttf') format('truetype');
+}
+
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main {
+    flex-direction: column-reverse;
+    position: relative;
+    font-weight: 600;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1 {
+    color: rgb(28, 173, 139);
+    margin-top: 50px;
+    font-family: 'Mustardo';
+    font-weight: 900;
+    margin-bottom: 4%;
+}
+
+.para_div {
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.2;
+}
+
+.para {
+    width: 100%;
+    max-width: 80%; /* Makes it responsive */
+    margin: 30px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-weight: 100;
+    font-family: cursive, Tahoma, sans-serif;
+    font-size: x-large;
+    line-height: 1.3;
+    overflow: hidden;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main {
+        font-size: large;
+        flex-direction: column;
+    }
+
+    .h1 {
+        font-size: 1.8rem;
+        margin-top: 20px;
+    }
+
+    .para {
+        font-size: 1.2rem;
+        width: 90%;
+        line-height: 1.5;
+    }
+
+    .para_div {
+        position: relative;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        font-size: medium;
+    }
+
+    .h1 {
+        font-size: 1.5rem;
+    }
+
+    .para {
+        font-size: 1rem;
+        width: 100%;
+        line-height: 1.4;
+    }
+
+    .para_div {
+        padding: 5px;
+    }
+}
+///////////////////////////////////////////////////////
+
+
+* {
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+
+    font-family: "";
+    font-weight: 300;
+    font-style: normal;
+
+
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #1798b5, #fbfafa);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+    color: rgb(9, 9, 9);
+    /* font-family: Arial, sans-serif */
+}
+
+@font-face {
+    font-family: 'Mustardo';
+    src: url('mustardo.ttf') format('truetype');
+}
+
+
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.main {
+    /* height: 100vh; */
+    flex-direction: column-reverse;
+    position: relative;
+    /* margin-top: 100px; */
+    font-weight: 600;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1 {
+    
+    color: rgb(28, 173, 139);
+    margin-top: 50px;
+    font-family: 'mustardo';
+
+    font-weight: 900;
+    margin-bottom: 4%;
+    /* color: rgb(7, 223, 223); */
+    font-family: 'Mustardo', sans-serif;
+}
+
+.para_div {
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.2;
+}
+
+.para {
+    width: 100vh;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 30px 20px;
+    font-weight: 100;
+    font-family: cursive, Tahoma, sans-serif;
+    font-size: x-large;
+    line-height: 1.3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /////////////////////////// */
